@@ -1,8 +1,8 @@
-# MyDeepLearning
-It's just my deep learning test
+# My Tensorflow test
+It's just my Tensorflow test
 
-* aaa  
-  * [Test](https://github.com/pkwin927/MyDeepLearning/blob/master/Jupyter/Test1.ipynb)
+* Tensorflow basic  
+  * [Session](https://github.com/pkwin927/MyDeepLearning/blob/master/Jupyter/Test1.ipynb)
 
 
 
