@@ -11,9 +11,6 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 import numpy as np
 
-
-
-
 tf.set_random_seed(1)
 np.random.seed(1)
 
@@ -21,7 +18,7 @@ x = np.linspace(-2,2,1000)[:, np.newaxis]
 
 noise = np.random.normal(0,0.1, size = x.shape)
 
-y = np.power(x,3) + noise  # y = x^2 + noise
+y = np.power(x,3) + noise  # y = x^3 + noise
 
 plt.scatter(x, y)
 plt.show()
@@ -37,11 +34,13 @@ layer2 = tf.layers.dense(layer1, 50, tf.nn.relu)
 output = tf.layers.dense(layer2,1)
 
 loss = tf.losses.mean_squared_error(tf_y, output)   
+
 optimizer = tf.train.GradientDescentOptimizer(learning_rate=0.01)
+
 train_op = optimizer.minimize(loss)
 
-
-sess = tf.Session()                                 
+sess = tf.Session()               
+                  
 sess.run(tf.global_variables_initializer())         
 
 plt.ion()   

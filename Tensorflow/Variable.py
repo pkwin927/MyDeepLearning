@@ -8,8 +8,6 @@ Created on Mon Sep 10 05:04:00 2018
 
 import tensorflow as tf
 
-
-## Method1
 var = tf.Variable(0)
 
 add_operation = tf.add(var,1) ## or add_operation = var + 1
