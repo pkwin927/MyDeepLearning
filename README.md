@@ -12,5 +12,6 @@ It's just my Tensorflow test
   * CNN[[py](https://github.com/pkwin927/MyTensorflowTest/blob/master/Tensorflow/CNN.py),[jupyter]]
   * RNN classification[[py](https://github.com/pkwin927/MyTensorflowTest/blob/master/Tensorflow/RNN_classification.py),[jupyter]]
   * CapsNet[[py],[jupyter]]
+*Tensorflow2.0  
 
 
